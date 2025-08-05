@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Playfair Display SC';
+}
+
+@font-face {
+    font-family: 'Playfair Display SC';
+    src: url('../../font/Playfair_Display_SC/PlayfairDisplaySC-Regular.ttf') format('truetype');
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url('../../images/fondo-para-web-2.png') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.wrapper{
+    background: transparent;
+    width: 420px;
+    color: darkslateblue;
+    padding: 30px 40px;
+    border: 1px solid cadetblue;
+    border-radius: 30px;
+    backdrop-filter: blur(60px);
+    box-shadow: 0 0 10px rgb(0, 0, 0, .2);
+}
+
+.wrapper h1{
+    font-size: 36px;
+    text-align: center;
+}
+
+.wrapper .input-box{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+}
+
+.wrapper input{
+    width: 100%;
+    height: 50%;
+    background: transparent;
+    border-radius: 40px;
+    border: 1px solid cadetblue;
+    outline: none;
+    color: black;
+    font-size: 13.5px;
+    padding: 20px 45px 20px 20px;
+}
+
+.wrapper input::placeholder{
+    font-weight: 800px;
+}
+
+.wrapper .input-box i{
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    transform: translateY(-50%);
+}
+
+.remember-forgot{
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+}
+
+.remember-forgot a{
+    text-decoration: none;
+    color: white;
+}
+
+.remember-forgot div{
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper .btn{
+    width: 100%;
+    height: 35px;
+    border-radius: 30px;
+    border: none;
+    margin-top: 20px;
+    cursor: pointer;
+    color: black;
+    font-weight: bold;
+    font-size: 16px;
+    box-shadow: 0 0 10px rgb(0, 0, 0, 0.1);
+}
+
+.wrapper .register-link{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.wrapper .register-link p a{
+    text-decoration: none;
+    color: white;
+    font-weight: 600px;
+}
+
+.wrapper .register-link p a:hover{
+    text-decoration: underline;
+}
+
